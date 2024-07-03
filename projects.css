@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Ga+Maamli&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: auto;
+    width: auto;
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    background-color: #eeeeff;
+    padding: 10px;
+    margin: 2rem;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.myName{
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-optical-sizing: auto;
+}
+nav li:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}

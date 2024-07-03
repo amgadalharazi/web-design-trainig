@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Ga+Maamli&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: auto;
+    width: auto;
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center;
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    background-color: #eeeeff;
+    padding: 10px;
+    margin: 2rem;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.myName{
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-optical-sizing: auto;
+}
+nav li:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.firstSection-wraper{
+    text-align: center;
+    width: 50%;
+    margin: 3rem auto;
+    background-color: #eeeeff9c;
+    backdrop-filter: blur(30px);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-bottom: 10rem;
+}
+.firstSection-wraper:hover{
+    width: 60%;
+}
+.firstSection-body {
+    padding-top:10px ;
+    line-height: 20px;
+    font-size: large;
+}
+.contact-btn {
+    height: 3rem;
+    width: 6rem;
+    background-color: #fbc2eb;
+    border-radius: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.projects-btn{
+    height: 3rem;
+    width: 6rem;
+    background-color: #a1c4fd;
+    border-radius: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-btn:hover, .projects-btn:hover{
+    opacity: 0.5;
+    width:7rem ;
+    height:4rem ;
+}
+.secondSection-wraper
+{
+    display: flexbox;
+    text-align: center;
+    background-color: #a1c4fda6;
+    backdrop-filter: blur(30px);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 2rem;
+}
+.nameSection, .passionSection, .systemSection
+{
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem;
+    margin: 2rem;
+    transition: 0.3s linear;
+    
+}
+.namepic img
+{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px;
+    
+}
+.passionpic img, .systempic img{
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px;
+}
+   
+.name h2, .passionSection h2, .systemSection h2{
+    font-size: xx-large;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.5s;
+}
+.name p, .passion p, .system p{
+    font-size: large;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nameSection:hover, .passionSection:hover, .systemSection:hover
+{
+   padding: 0px;
+   transition: 0.4s;
+}
+.down 
+{
+    display: flex;
+    justify-content: center;
+}
+.thirdSection-wraper
+{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto;
+    background-color: rgba(24, 21, 21, 0.945);
+    margin: 2rem;
+    border-radius: 10px;
+    padding-top: 10;
+}
+.comments{
+    color: #eeeeff;
+    margin: 5rem;
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.comments button{
+    padding: 10px;
+    margin-top: 20px;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+    transition: 0.5s;
+    border-style: none;
+    cursor: pointer;
+} 
+.comments button:hover 
+{
+    height: 4rem;
+    width: 8rem;
+}
+.comments button a 
+{
+    text-decoration: none; 
+}
+.instgram{
+    padding: 1rem;
+}
+.instgram img{
+    height: 100px;
+}
+
+
+
+@media(max-width: 900px){
+    .nameSection, .passionSection, .systemSection, .down{
+        display: flex;
+         flex-direction: column;
+    }
+    .down{
+        justify-content: center;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Ga+Maamli&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: auto;
+    width: auto;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style: none;
+    background-color: #eeeeff;
+    padding: 10px;
+    margin: 2rem;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.myName{
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-optical-sizing: auto;
+}
+nav li:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.contactsSection{
+    background-color: rgba(253, 251, 119, 0.507);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    margin: 3rem;
+    backdrop-filter: blur(30px);
+    transition: 0.5s;
+}
+.contactsSection img{
+    margin: 2rem;
+    height:10rem ;
+    border-radius: 4rem;
+    width: 10rem;
+    max-width: 100%;
+    max-height: 100%;
+    transition: 0.5s;
+}
+.contactsSection img:hover {
+    box-shadow: 5px 5px 5px #000000;
+}
+.contactsSection:hover {
+    padding: 10px;
+}
+@media(max-width: 800px){
+    .contactsSection
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
